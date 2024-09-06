@@ -5,3 +5,5 @@ echo "working with file : ${fname}"
 echo "welcome to Nell's stats script"
 
 # compute the min/max/range of values in a file.
+min=$( cat ${fname} | sort | head -1)
+
